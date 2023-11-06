@@ -10,7 +10,7 @@ To use this example, you can follow the steps below :
 2. Install requirement library : `pip install aiohttp jsonschema coverage requests responses`
 3. Create .env file based on .env.example
 4. Run example : `python service.py`
-5. Run this curl from your command line or other app :
+5. Run this curl from your command line or other app (this curl use env `AUTH_BASIC_USER=test` and `AUTH_BASIC_PASSWORD=test`):
 ```
 curl --location 'http://localhost:8080/api/v1/location' \
 --header 'Content-Type: application/json' \
